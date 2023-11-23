@@ -11,7 +11,8 @@ export default function Dictionary() {
     }
     function search(event){
         event.preventDefault();
-        alert(`Searching for ${keyword} definition`)
+        
+// API documentation: https://www.shecodes.io/learn/apis/dictionary
 
         let apiKey = "b5a70e3dbaf3379o5576fffe161ca0t4";
         let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
