@@ -11,9 +11,9 @@ function App() {
        Dictionary
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="dictionary"/>
       </main>
-      <footer className='text-center'><small>Coded by Ellie Forbes</small></footer>
+      <footer className="App-footer"><small>Coded by Ellie Forbes</small></footer>
       </div>
     </div>
   );

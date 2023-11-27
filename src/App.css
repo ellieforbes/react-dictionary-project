@@ -1,7 +1,12 @@
+body {
+  background: #f9f8fe;
+}
 .App-header {
   text-align: center;
   margin: 30px auto;
   font-size: 50px;
+  font-weight: bold;
+  line-height: 1.5;
 }
 .App-footer {
   text-align: center;
