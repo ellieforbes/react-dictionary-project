@@ -1,5 +1,8 @@
 body {
-  background: #f9f8fe;
+  background: #F0EBE3;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
 }
 .App-header {
   text-align: center;
@@ -7,6 +10,7 @@ body {
   font-size: 50px;
   font-weight: bold;
   line-height: 1.5;
+ color: #576F72;
 }
 .App-footer {
   text-align: center;

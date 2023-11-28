@@ -6,12 +6,12 @@
     border: 1px solid #ddd;
 }
 
-.Dictionary section {
+.Dictionary .search {
     background: white;
     padding: 30px;
-    border-radius: 8px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    margin: 20px 0;
 }
 
 .Dictionary .hint {

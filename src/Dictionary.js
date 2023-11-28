@@ -39,7 +39,7 @@ search();
     if (loaded) {
         return (
             <div className="Dictionary">
-                <section>
+                <section className="search">
             <form onSubmit={handleSubmit}>
                 <input type="search" placeholder="Search a word..." onChange={handleKeywordChange}/>
             </form>
