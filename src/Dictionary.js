@@ -40,8 +40,9 @@ search();
         return (
             <div className="Dictionary">
                 <section className="search">
+                    <h1>What word do you want to look up?</h1>
             <form onSubmit={handleSubmit}>
-                <input type="search" placeholder="Search a word..." onChange={handleKeywordChange}/>
+                <input type="search" placeholder="Search a word..." onChange={handleKeywordChange} defaultValue={props.defaultKeyword}/>
             </form>
             <div className="hint">
                 e.g. sunset, yoga, appreciate, happy...

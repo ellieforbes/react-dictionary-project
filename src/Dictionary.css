@@ -1,3 +1,9 @@
+.Dictionary h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7D9D9C;
+    
+}
 .Dictionary input {
     width: 100%;
     border-radius: 6px;
