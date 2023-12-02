@@ -13,7 +13,7 @@ function App() {
       <main>
         <Dictionary defaultKeyword="dictionary"/>
       </main>
-      <footer className="App-footer"><small>Coded by Ellie Forbes</small></footer>
+      <footer className="App-footer"><small>This project was coded by <a href="https://portfolio-byellieforbes.netlify.app/" target="_blank" rel="noreferrer"> Ellie Forbes </a> and is <a href="https://github.com/ellieforbes/react-weather-application" target="_blank" rel="noreferrer">open-sourced</a> on Github</small></footer>
       </div>
     </div>
   );
